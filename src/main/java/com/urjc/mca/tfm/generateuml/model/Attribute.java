@@ -6,7 +6,6 @@ public class Attribute {
 
     public final String name;
     public final Visibility visibility;
-//    public final Type type;
     public final String type;
     public final boolean staticAtribute;
 
@@ -15,7 +14,6 @@ public class Attribute {
     }
 
     public Attribute(String name, Visibility visibility){
-//        this(name, visibility, Type.EMPTY_TYPE);
         this(name, visibility, "");
     }
 
